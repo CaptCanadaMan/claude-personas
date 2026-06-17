@@ -6,6 +6,10 @@ claude-persona ships a set of character "voices" for Claude Code - blunt and cau
 
 Under the hood, each persona is a set of personality dials (warmth, sarcasm, honesty, verbosity, and ten others) that compile into a Claude Code **output style**. Claude stays a fully capable coding agent - the persona only changes how it talks.
 
+> "It integrated no problem, and the immediate noticeable difference is crazy. It felt much more human sounding."
+>
+> - [@ShinobiFPV](https://github.com/ShinobiFPV)
+
 ---
 
 ## Install
