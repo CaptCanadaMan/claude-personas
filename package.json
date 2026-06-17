@@ -4,6 +4,8 @@
   "description": "Tunable character system for Claude Code. Personality dials and archetype presets compiled into hot-swappable output styles.",
   "type": "module",
   "scripts": {
+    "setup": "node install.ts",
+    "uninstall": "node install.ts --uninstall",
     "compile": "node src/compile.ts",
     "print": "node src/compile.ts --print",
     "test": "node --test",
@@ -33,6 +35,8 @@
   "files": [
     "src/",
     "output-styles/",
+    ".claude/",
+    "install.ts",
     "LICENSE",
     "README.md"
   ],
